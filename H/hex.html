@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hwiki - Hexadecimal Wiki</title>
+    <link rel="stylesheet" href="hex.css">
+</head>
+<body>
+
+<header>
+    <h1>Hwiki : Hexadecimal Wiki</h1>
+    <input id="searchInput" type="text" placeholder="검색 (예: 1A)">
+</header>
+
+<nav id="sidebar">
+    <h2>문서 목록</h2>
+    <ul id="docList">
+        <li data-doc="hex1A">1A</li>
+        <li data-doc="hexFF">FF</li>
+        <li data-doc="hex7">7</li>
+    </ul>
+</nav>
+
+<main id="content">
+
+    <!-- 문서 1 -->
+    <article id="hex1A" class="doc active">
+        <h2>1A (16진수)</h2>
+        <p>16진수 1A는 10진수 26에 해당합니다.</p>
+        <pre>16진수: 1A  
+10진수: 26  
+8진수: 32  
+2진수: 11010</pre>
+    </article>
+
+    <!-- 문서 2 -->
+    <article id="hexFF" class="doc">
+        <h2>FF (16진수)</h2>
+        <p>16진수 FF는 10진수 255에 해당합니다.</p>
+        <pre>16진수: FF  
+10진수: 255  
+8진수: 377  
+2진수: 11111111</pre>
+    </article>
+
+    <!-- 문서 3 -->
+    <article id="hex7" class="doc">
+        <h2>7 (16진수)</h2>
+        <p>16진수 7은 10진수 7에 해당합니다.</p>
+        <pre>16진수: 7  
+10진수: 7  
+8진수: 7  
+2진수: 111</pre>
+    </article>
+
+</main>
+
+<script src="hex.js"></script>
+</body>
+</html>

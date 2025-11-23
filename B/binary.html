@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bwiki - Binary Wiki</title>
+    <link rel="stylesheet" href="binary.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bwiki : Binary Wiki</h1>
+        <input id="searchInput" type="text" placeholder="검색 (예: 1010)">
+    </header>
+
+    <nav id="sidebar">
+        <h2>문서 목록</h2>
+        <ul id="docList">
+            <li data-doc="binary1010">1010</li>
+            <li data-doc="binary1111">1111</li>
+            <li data-doc="binary0001">0001</li>
+        </ul>
+    </nav>
+
+    <main id="content">
+
+        <!-- 초기 기본 문서 -->
+        <article id="binary1010" class="doc active">
+            <h2>1010</h2>
+            <p>1010(2)은 십진수 10에 해당합니다.</p>
+            <pre>2진수: 1010  
+10진수: 10  
+16진수: A</pre>
+        </article>
+
+        <article id="binary1111" class="doc">
+            <h2>1111</h2>
+            <p>1111(2)은 십진수 15에 해당합니다.</p>
+            <pre>2진수: 1111  
+10진수: 15  
+16진수: F</pre>
+        </article>
+
+        <article id="binary0001" class="doc">
+            <h2>0001</h2>
+            <p>0001(2)은 십진수 1에 해당합니다.</p>
+            <pre>2진수: 0001  
+10진수: 1  
+16진수: 1</pre>
+        </article>
+
+    </main>
+
+    <script src="binary.js"></script>
+</body>
+</html>

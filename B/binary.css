@@ -1,0 +1,85 @@
+/* 기본 레이아웃 */
+body {
+    margin: 0;
+    font-family: "Consolas", "Pretendard", monospace;
+    background: #111;
+    color: #eee;
+}
+
+/* 헤더 */
+header {
+    background: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    color: #00eaff;
+}
+
+header input {
+    padding: 7px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* 사이드바 */
+#sidebar {
+    width: 220px;
+    background: #181818;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    border-right: 2px solid #333;
+    padding: 20px;
+}
+
+#sidebar h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #00ffd0;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar li {
+    margin: 8px 0;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+#sidebar li:hover {
+    background: #333;
+}
+
+/* 본문 */
+main {
+    margin-left: 240px;
+    padding: 30px;
+}
+
+.doc {
+    display: none;
+}
+
+.doc.active {
+    display: block;
+}
+
+pre {
+    background: #222;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+}

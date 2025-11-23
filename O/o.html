@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owiki - Octal Wiki</title>
+    <link rel="stylesheet" href="o.css">
+</head>
+<body>
+
+<header>
+    <h1>Owiki : Octal Wiki</h1>
+    <input id="searchInput" type="text" placeholder="검색 (예: 12)">
+</header>
+
+<nav id="sidebar">
+    <h2>문서 목록</h2>
+    <ul id="docList">
+        <li data-doc="oct12">12</li>
+        <li data-doc="oct17">17</li>
+        <li data-doc="oct7">7</li>
+    </ul>
+</nav>
+
+<main id="content">
+
+    <!-- 문서 1 -->
+    <article id="oct12" class="doc active">
+        <h2>12 (8진수)</h2>
+        <p>8진수 12는 10진수 10에 해당합니다.</p>
+        <pre>8진수: 12  
+10진수: 10  
+16진수: A  
+2진수: 1010</pre>
+    </article>
+
+    <!-- 문서 2 -->
+    <article id="oct17" class="doc">
+        <h2>17 (8진수)</h2>
+        <p>8진수 17은 10진수 15에 해당합니다.</p>
+        <pre>8진수: 17  
+10진수: 15  
+16진수: F  
+2진수: 1111</pre>
+    </article>
+
+    <!-- 문서 3 -->
+    <article id="oct7" class="doc">
+        <h2>7 (8진수)</h2>
+        <p>8진수 7은 10진수 7에 해당합니다.</p>
+        <pre>8진수: 7  
+10진수: 7  
+16진수: 7  
+2진수: 111</pre>
+    </article>
+
+</main>
+
+<script src="o.js"></script>
+</body>
+</html>
