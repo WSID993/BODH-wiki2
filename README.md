@@ -9,3 +9,11 @@ In this wiki, we will give you binary, octal, and hexadecimal numbers!
 このウィキでは、2 進数、8 進数、16 進数をお知らせします！
 
 Эта wiki учит двоичным, восьмеричным и шестнадцатеричным числам!
+
+# 이름은 이렇게 지었습니다!
+
+Binary, octal, decimal,  hexadecimal
+
+B.O.D.H.
+
+BODH-wiki
